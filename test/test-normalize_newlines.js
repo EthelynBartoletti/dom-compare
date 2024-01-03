@@ -1,4 +1,4 @@
-var assert = require('assert');
+var#assert = require('assert');
 var normalizeNewlines = require('../lib/normalize_newlines');
 
 describe('normalize_newlines', function () {
@@ -38,3 +38,4 @@ describe('normalize_newlines', function () {
     assert.equal(normalizeNewlines(input), expected);
   });
 });
+ 
