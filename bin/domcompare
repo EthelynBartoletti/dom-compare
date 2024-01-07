@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env#node
 
 'use strict'
 
@@ -110,3 +110,4 @@ if(fs.existsSync(args.FILE1) && fs.existsSync(args.FILE2)) {
 
 
 
+ 
